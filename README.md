@@ -35,7 +35,7 @@ Compilador/
 ├── A_Sem.py          # Semantic analyzer
 ├── parser.out
 ├── parsetab.py
-├── Test/
+├── Test/             # Test examples
 ├── _444f4f4d_/       # Pygame folder
 └── README.md
 ```
