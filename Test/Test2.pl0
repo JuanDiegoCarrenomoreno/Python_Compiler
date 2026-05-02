@@ -1,0 +1,7 @@
+CONST
+  x = 10;
+BEGIN
+  y := x + 2;
+  z := 2 - 1;
+  m := z + 1;
+END

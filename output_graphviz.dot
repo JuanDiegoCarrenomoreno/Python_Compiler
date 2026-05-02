@@ -1,0 +1,133 @@
+digraph G {
+	5[label= x]
+	6[label= "="]
+	7[label= 10]
+	4[label= constAssignmentList1]
+	4 -> 5
+	4 -> 6
+	4 -> 7
+	3[label= constDecl]
+	3->4
+	8[label = nodo_nulo]
+	9[label = nodo_nulo]
+	17[label= a]
+	18[label= ":="]
+	23[label= x]
+	22[label= factor1]
+	22 -> 23
+	21[label= term1]
+	21 -> 22
+	20[label= expression1]
+	20 -> 21
+	25[label= "+"]
+	24[label= addingOperator]
+	24 -> 25
+	28[label= 2]
+	27[label= factor2]
+	27 -> 28
+	26[label= term1]
+	26 -> 27
+	19[label= expression3]
+	19 -> 20
+	19 -> 24
+	19 -> 26
+	16[label= statement1]
+	16 -> 17
+	16 -> 18
+	16 -> 19
+	15[label= statementList1]
+	15 -> 16
+	30[label= b]
+	31[label= ":="]
+	36[label= x]
+	35[label= factor1]
+	35 -> 36
+	34[label= term1]
+	34 -> 35
+	33[label= expression1]
+	33 -> 34
+	38[label= "-"]
+	37[label= subtractionOperator]
+	37 -> 38
+	41[label= 2]
+	40[label= factor2]
+	40 -> 41
+	39[label= term1]
+	39 -> 40
+	32[label= expression3]
+	32 -> 33
+	32 -> 37
+	32 -> 39
+	29[label= statement1]
+	29 -> 30
+	29 -> 31
+	29 -> 32
+	14[label= statementList2]
+	14 -> 15
+	14 -> 29
+	43[label= c]
+	44[label= ":="]
+	49[label= x]
+	48[label= factor1]
+	48 -> 49
+	47[label= term1]
+	47 -> 48
+	51[label= "/"]
+	50[label= divisionOperator]
+	50 -> 51
+	53[label= 2]
+	52[label= factor2]
+	52 -> 53
+	46[label= term2]
+	46 -> 47
+	46 -> 50
+	46 -> 52
+	45[label= expression1]
+	45 -> 46
+	42[label= statement1]
+	42 -> 43
+	42 -> 44
+	42 -> 45
+	13[label= statementList2]
+	13 -> 14
+	13 -> 42
+	55[label= d]
+	56[label= ":="]
+	61[label= x]
+	60[label= factor1]
+	60 -> 61
+	59[label= term1]
+	59 -> 60
+	63[label= "*"]
+	62[label= multiplyingOperator]
+	62 -> 63
+	65[label= 2]
+	64[label= factor2]
+	64 -> 65
+	58[label= term2]
+	58 -> 59
+	58 -> 62
+	58 -> 64
+	57[label= expression1]
+	57 -> 58
+	54[label= statement1]
+	54 -> 55
+	54 -> 56
+	54 -> 57
+	12[label= statementList2]
+	12 -> 13
+	12 -> 54
+	66[label = nodo_nulo]
+	11[label= statementList2]
+	11 -> 12
+	11 -> 66
+	10[label= statement3]
+	10 -> 11
+	2[label= block]
+	2 -> 3
+	2 -> 8
+	2 -> 9
+	2 -> 10
+	1[label= program]
+	1->2
+	}

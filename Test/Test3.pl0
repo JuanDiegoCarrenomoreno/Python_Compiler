@@ -1,0 +1,12 @@
+CONST
+    m = 7;
+
+VAR
+    x, y, z, q, r;
+
+PROCEDURE multiply;
+VAR a, b;
+BEGIN
+    a := 10;
+    b := a * m;
+END;
